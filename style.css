@@ -9,6 +9,7 @@ box-shadow: none!important;
 /* awards */
 .award-card{
     position:relative;
+    padding:10px
 }
 .award-ribbon{
     position: absolute;
