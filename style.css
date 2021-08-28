@@ -1,0 +1,25 @@
+.registration .accordion-button:focus {
+box-shadow: none!important;
+}
+.about-image{
+    object-fit: cover;
+    height:300px;
+    overflow: hidden;
+}
+/* awards */
+.award-card{
+    position:relative;
+}
+.award-ribbon{
+    position: absolute;
+    top:0px;
+    left:10px;
+
+
+}
+@media(max-width:576px){
+    .award-row{
+        --bs-gutter-x: 0 rem !important;
+    }
+}
+
